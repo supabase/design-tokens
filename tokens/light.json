@@ -22,7 +22,7 @@
       }
     }
   },
-  "lighten": {
+  "shading": {
     "DEFAULT": {
       "value": "0.1",
       "type": "other"
