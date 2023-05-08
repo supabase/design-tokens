@@ -88,7 +88,7 @@
               "type": "mix",
               "value": "{shading.hard}",
               "space": "hsl",
-              "color": "{theme-variables.background-body-alt} }"
+              "color": "{theme-variables.background-body-alt}"
             }
           }
         }
@@ -102,7 +102,7 @@
               "type": "mix",
               "value": "{shading.harder}",
               "space": "hsl",
-              "color": "{backgroundColor.body-alt} "
+              "color": "{backgroundColor.body-alt}"
             }
           }
         }
@@ -136,7 +136,7 @@
               "type": "mix",
               "value": "{shading.hard}",
               "space": "hsl",
-              "color": "{theme-variables.background-body-alt} }"
+              "color": "{theme-variables.background-body-alt}"
             }
           }
         }
@@ -148,9 +148,9 @@
           "studio.tokens": {
             "modify": {
               "type": "mix",
-              "value": "{shading.harder} ",
+              "value": "{shading.harder}",
               "space": "hsl",
-              "color": "{backgroundColor.body-alt} "
+              "color": "{backgroundColor.body-alt}"
             }
           }
         }
