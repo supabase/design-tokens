@@ -81,7 +81,7 @@
           "modify": {
             "type": "mix",
             "value": "{lighten.soft}",
-            "space": "lch",
+            "space": "hsl",
             "color": "{utility.mix-positive}"
           }
         }
