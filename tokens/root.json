@@ -87,7 +87,7 @@
             "modify": {
               "type": "mix",
               "value": "{shading.hard}",
-              "space": "lch",
+              "space": "hsl",
               "color": "{theme-variables.background-body-alt} }"
             }
           }
@@ -101,7 +101,7 @@
             "modify": {
               "type": "mix",
               "value": "{shading.harder}",
-              "space": "lch",
+              "space": "hsl",
               "color": "{backgroundColor.body-alt} "
             }
           }
@@ -115,7 +115,7 @@
             "modify": {
               "type": "mix",
               "value": "{shading.hardestXLL}",
-              "space": "lch",
+              "space": "hsl",
               "color": "{backgroundColor.body-alt}"
             }
           }
@@ -135,7 +135,7 @@
             "modify": {
               "type": "mix",
               "value": "{shading.hard}",
-              "space": "lch",
+              "space": "hsl",
               "color": "{theme-variables.background-body-alt} }"
             }
           }
@@ -149,7 +149,7 @@
             "modify": {
               "type": "mix",
               "value": "{shading.harder} ",
-              "space": "lch",
+              "space": "hsl",
               "color": "{backgroundColor.body-alt} "
             }
           }
@@ -163,7 +163,7 @@
             "modify": {
               "type": "mix",
               "value": "{shading.hardestXLL}",
-              "space": "lch",
+              "space": "hsl",
               "color": "{backgroundColor.body-alt}"
             }
           }
