@@ -23,8 +23,12 @@
       "value": "#f88426",
       "type": "color"
     },
+    "danger": {
+      "value": "#ff4b4b",
+      "type": "color"
+    },
     "success": {
-      "value": "#62ff97",
+      "value": "#53ff5e",
       "type": "color"
     },
     "text": {
@@ -173,6 +177,54 @@
         "value": "{theme-variables.warning}",
         "type": "color"
       }
+    },
+    "danger": {
+      "100": {
+        "value": "{theme-variables.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "mix",
+              "value": "{shading.hard}",
+              "space": "hsl",
+              "color": "{theme-variables.background-body-alt}"
+            }
+          }
+        }
+      },
+      "200": {
+        "value": "{theme-variables.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "mix",
+              "value": "{shading.harder}",
+              "space": "hsl",
+              "color": "{theme-variables.background-body-alt}"
+            }
+          }
+        }
+      },
+      "300": {
+        "value": "{theme-variables.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "mix",
+              "value": "{shading.hardestXLL}",
+              "space": "hsl",
+              "color": "{theme-variables.background-body-alt}"
+            }
+          }
+        }
+      },
+      "DEFAULT": {
+        "value": "{theme-variables.danger}",
+        "type": "color"
+      }
     }
   },
   "borderColor": {
@@ -263,6 +315,45 @@
             "value": "{shading.hardest}",
             "space": "hsl",
             "color": "{utility.mix-negative}"
+          }
+        }
+      }
+    },
+    "success": {
+      "DEFAULT": {
+        "value": "{theme-variables.success}",
+        "type": "color"
+      }
+    },
+    "link": {
+      "DEFAULT": {
+        "value": "{theme-variables.brand}",
+        "type": "color"
+      }
+    },
+    "warning": {
+      "DEFAULT": {
+        "value": "{theme-variables.warning}",
+        "type": "color"
+      }
+    },
+    "danger": {
+      "DEFAULT": {
+        "value": "{theme-variables.danger}",
+        "type": "color"
+      }
+    },
+    "disabled": {
+      "DEFAULT": {
+        "value": "{theme-variables.text.body}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.5",
+              "space": "hsl"
+            }
           }
         }
       }
