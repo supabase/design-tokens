@@ -380,8 +380,8 @@
         "$extensions": {
           "studio.tokens": {
             "modify": {
-              "type": "alpha",
-              "value": "0.33",
+              "type": "darken",
+              "value": "0.75",
               "space": "hsl"
             }
           }
