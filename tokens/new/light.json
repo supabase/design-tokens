@@ -1,7 +1,7 @@
 {
   "theme-variables": {
     "background": {
-      "value": "#fbfcfd",
+      "value": "#fbfbfb",
       "type": "color",
       "description": "og color is  colors.Slate.Light.1"
     },
