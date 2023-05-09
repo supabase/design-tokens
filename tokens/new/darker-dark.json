@@ -10,12 +10,12 @@
       "description": "$colors.Gray.Dark.3"
     },
     "background-body": {
-      "value": "#000",
+      "value": "#121212",
       "type": "color",
       "description": "$colors.Gray.Dark.2"
     },
     "background-body-alt": {
-      "value": "#161616",
+      "value": "#050505",
       "type": "color",
       "description": "$colors.Gray.Dark.1"
     },
